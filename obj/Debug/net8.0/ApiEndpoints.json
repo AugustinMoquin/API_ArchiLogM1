@@ -1,0 +1,218 @@
+[
+  {
+    "ContainingType": "exchangeRateApi.ImportController",
+    "Method": "ImportCurrencies",
+    "RelativePath": "api/Import/import-currencies",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "GetCurrencies",
+    "RelativePath": "api/v1.0/Currency",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[exchangeRateApi.Models.Currency, exchangeRateApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "CreateCurrency",
+    "RelativePath": "api/v1.0/Currency",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "currency",
+        "Type": "exchangeRateApi.Models.Currency",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "exchangeRateApi.Models.Currency",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "GetCurrency",
+    "RelativePath": "api/v1.0/Currency/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "exchangeRateApi.Models.Currency",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "DeleteCurrency",
+    "RelativePath": "api/v1.0/Currency/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "UpdateCurrency",
+    "RelativePath": "api/v1.0/Currency/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedCurrency",
+        "Type": "exchangeRateApi.Models.Currency",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "CompareCurrencies",
+    "RelativePath": "api/v1.0/Currency/compare",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id1",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "id2",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "country_Code1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "country_Code2",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currency_Name1",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currency_Name2",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
+    "Method": "SearchCurrencies",
+    "RelativePath": "api/v1.0/Currency/search",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "country_Code",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "currency_Name",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "range",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "desc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "asc",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "fields",
+        "Type": "System.String",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[System.Object, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
