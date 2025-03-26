@@ -1,37 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\",
+  "WorkspaceRootPath": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\logs\\log-20250324.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\logs\\log-20250324.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:logs\\log-20250324.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\grizzly\\source\\repos\\api_archilogm1\\joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
@@ -52,7 +52,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -70,9 +70,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "log-20250324.txt",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
               "RelativeDocumentMoniker": "logs\\log-20250324.txt",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
               "RelativeToolTip": "logs\\log-20250324.txt",
               "ViewState": "AgIAANgCAAAAAAAAAAAvwJMCAAB5AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
@@ -80,11 +80,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CurrencyController.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Controllers\\CurrencyController.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
               "RelativeToolTip": "Controllers\\CurrencyController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -95,9 +95,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "UnitTest.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
               "RelativeDocumentMoniker": "UnitTest.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
               "RelativeToolTip": "UnitTest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -105,24 +105,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CsvMigrate.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
               "RelativeDocumentMoniker": "CsvMigrate.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
               "RelativeToolTip": "CsvMigrate.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAA+wCAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T21:54:13.608Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T21:54:13.608Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "joined_currency_data.csv",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\joined_currency_data.csv",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\joined_currency_data.csv",
               "RelativeDocumentMoniker": "joined_currency_data.csv",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\joined_currency_data.csv",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\joined_currency_data.csv",
               "RelativeToolTip": "joined_currency_data.csv",
               "ViewState": "AgIAAF8AAAAAAAAAAAAvwHAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
@@ -130,23 +129,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Program.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-21T16:12:30.536Z"
+              "WhenOpened": "2025-03-21T16:12:30.536Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Models\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Models\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\ApplicationDbContext.cs",
               "RelativeToolTip": "Models\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -156,9 +156,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Currency.cs",
-              "DocumentMoniker": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Models\\Currency.cs",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\Currency.cs",
               "RelativeDocumentMoniker": "Models\\Currency.cs",
-              "ToolTip": "C:\\Users\\Grizzly\\source\\repos\\API_ArchiLogM1\\Models\\Currency.cs",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\Currency.cs",
               "RelativeToolTip": "Models\\Currency.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
