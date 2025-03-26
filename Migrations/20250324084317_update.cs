@@ -5,7 +5,7 @@
 namespace exchangeRateApi.Migrations
 {
     /// <inheritdoc />
-    public partial class ConfigureCurrencyIdAutoIncrement : Migration
+    public partial class update : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

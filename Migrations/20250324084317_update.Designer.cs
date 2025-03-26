@@ -11,8 +11,8 @@ using exchangeRateApi.Models;
 namespace exchangeRateApi.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20250323210453_ConfigureCurrencyIdAutoIncrement")]
-    partial class ConfigureCurrencyIdAutoIncrement
+    [Migration("20250324084317_update")]
+    partial class update
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -41,9 +41,6 @@ namespace exchangeRateApi.Migrations
                     b.Property<string>("Currency_Code")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Currency_Code2")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Currency_Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -54,9 +51,6 @@ namespace exchangeRateApi.Migrations
                         .HasColumnType("real");
 
                     b.Property<string>("country_Code")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("temp")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

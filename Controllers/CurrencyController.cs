@@ -7,7 +7,7 @@ using Microsoft.Extensions.Logging;
 
 namespace exchangeRateApi.Controllers
 {
-    [Route("api/v1.0/[controller]")]
+    [Route("api/v1/[controller]")]
     [ApiController]
     public class CurrencyController : ControllerBase
     {
@@ -46,14 +46,14 @@ namespace exchangeRateApi.Controllers
         public async Task<ActionResult<IEnumerable<object>>> SearchCurrencies(
             int? id,
             string? country_Code,
-            string? currency_Name,
+            string? Currency_Code,
             string? range,
             string? desc,
             string? asc,
             string? fields)
         {
-            _logger.LogInformation("SearchCurrencies called with parameters: id={Id}, country_Code={CountryCode}, currency_Name={CurrencyName}, range={Range}, desc={Desc}, asc={Asc}, fields={Fields}",
-                id, country_Code, currency_Name, range, desc, asc, fields);
+            _logger.LogInformation("SearchCurrencies called with parameters: id={Id}, country_Code={CountryCode}, Currency_Code={CurrencyName}, range={Range}, desc={Desc}, asc={Asc}, fields={Fields}",
+                id, country_Code, Currency_Code, range, desc, asc, fields);
 
             var query = _context.Currencies.AsQueryable();
 
@@ -67,9 +67,9 @@ namespace exchangeRateApi.Controllers
                 query = query.Where(c => c.country_Code == country_Code);
             }
 
-            if (!string.IsNullOrEmpty(currency_Name))
+            if (!string.IsNullOrEmpty(Currency_Code))
             {
-                query = query.Where(c => c.Currency_Name == currency_Name);
+                query = query.Where(c => c.Currency_Code == Currency_Code);
             }
 
             if (!string.IsNullOrEmpty(range))
@@ -123,13 +123,13 @@ namespace exchangeRateApi.Controllers
         }
 
         [HttpGet("compare")]
-        public async Task<ActionResult<object>> CompareCurrencies(int? id1, int? id2, string? country_Code1, string? country_Code2, string? currency_Name1, string? currency_Name2)
+        public async Task<ActionResult<object>> CompareCurrencies(int? id1, int? id2, string? country_Code1, string? country_Code2, string? Currency_Code1, string? Currency_Code2)
         {
-            _logger.LogInformation("CompareCurrencies called with parameters: id1={Id1}, id2={Id2}, country_Code1={CountryCode1}, country_Code2={CountryCode2}, currency_Name1={CurrencyName1}, currency_Name2={CurrencyName2}",
-                id1, id2, country_Code1, country_Code2, currency_Name1, currency_Name2);
+            _logger.LogInformation("CompareCurrencies called with parameters: id1={Id1}, id2={Id2}, country_Code1={CountryCode1}, country_Code2={CountryCode2}, Currency_Code1={CurrencyCode1}, Currency_Code2={CurrencyCode2}",
+                id1, id2, country_Code1, country_Code2, Currency_Code1, Currency_Code2);
 
-            var currency1 = await GetCurrencyByParameters(id1, country_Code1, currency_Name1);
-            var currency2 = await GetCurrencyByParameters(id2, country_Code2, currency_Name2);
+            var currency1 = await GetCurrencyByParameters(id1, country_Code1, Currency_Code1);
+            var currency2 = await GetCurrencyByParameters(id2, country_Code2, Currency_Code2);
 
             if (currency1 == null || currency2 == null)
             {
@@ -140,27 +140,27 @@ namespace exchangeRateApi.Controllers
             var value1ToDollar = currency1.Value;
             var value2ToDollar = currency2.Value;
 
-            var Value1ToValue2 = ((value1ToDollar * 100) / value2ToDollar) / 100;
-            var Value2ToValue1 = ((value2ToDollar * 100) / value1ToDollar) / 100;
+            var Value1ToValue2 = value1ToDollar / value2ToDollar;
+            var Value2ToValue1 = value2ToDollar / value1ToDollar;
 
             var comparison = new Dictionary<string, Dictionary<string, float>>
             {
-                [currency1.Currency_Name] = new Dictionary<string, float>
+                [currency1.Currency_Code] = new Dictionary<string, float>
                 {
-                    [currency1.Currency_Name] = 1,
-                    [currency2.Currency_Name] = Value1ToValue2
+                    [currency1.Currency_Code] = 1,
+                    [currency2.Currency_Code] = Value2ToValue1
                 },
-                [currency2.Currency_Name] = new Dictionary<string, float>
+                [currency2.Currency_Code] = new Dictionary<string, float>
                 {
-                    [currency2.Currency_Name] = 1,
-                    [currency1.Currency_Name] = Value2ToValue1
+                    [currency2.Currency_Code] = 1,
+                    [currency1.Currency_Code] = Value1ToValue2
                 }
             };
 
             return new { currency1, currency2, comparison };
         }
 
-        private async Task<Currency?> GetCurrencyByParameters(int? id, string? country_Code, string? currency_Name)
+        private async Task<Currency?> GetCurrencyByParameters(int? id, string? country_Code, string? Currency_Code)
         {
             var query = _context.Currencies.AsQueryable();
 
@@ -174,9 +174,9 @@ namespace exchangeRateApi.Controllers
                 query = query.Where(c => c.country_Code == country_Code);
             }
 
-            if (!string.IsNullOrEmpty(currency_Name))
+            if (!string.IsNullOrEmpty(Currency_Code))
             {
-                query = query.Where(c => c.Currency_Name == currency_Name);
+                query = query.Where(c => c.Currency_Code == Currency_Code);
             }
 
             return await query.FirstOrDefaultAsync();
@@ -238,7 +238,7 @@ namespace exchangeRateApi.Controllers
             existingCurrency.country_Code = updatedCurrency.country_Code;
             existingCurrency.Country_number = updatedCurrency.Country_number;
             existingCurrency.Country = updatedCurrency.Country;
-            existingCurrency.Currency_Name = updatedCurrency.Currency_Name;
+            existingCurrency.Currency_Code = updatedCurrency.Currency_Code;
             existingCurrency.Currency_Code = updatedCurrency.Currency_Code;
             existingCurrency.Currency_Number = updatedCurrency.Currency_Number;
             existingCurrency.Value = updatedCurrency.Value;

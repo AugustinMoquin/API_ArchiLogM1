@@ -38,9 +38,6 @@ namespace exchangeRateApi.Migrations
                     b.Property<string>("Currency_Code")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("Currency_Code2")
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Currency_Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -51,9 +48,6 @@ namespace exchangeRateApi.Migrations
                         .HasColumnType("real");
 
                     b.Property<string>("country_Code")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("temp")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");

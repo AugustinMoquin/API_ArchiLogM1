@@ -147,12 +147,12 @@
         "IsRequired": false
       },
       {
-        "Name": "currency_Name1",
+        "Name": "Currency_Code1",
         "Type": "System.String",
         "IsRequired": false
       },
       {
-        "Name": "currency_Name2",
+        "Name": "Currency_Code2",
         "Type": "System.String",
         "IsRequired": false
       }
@@ -178,7 +178,7 @@
         "IsRequired": false
       },
       {
-        "Name": "currency_Name",
+        "Name": "Currency_Code",
         "Type": "System.String",
         "IsRequired": false
       },

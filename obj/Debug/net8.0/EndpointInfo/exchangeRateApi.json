@@ -212,7 +212,7 @@
             }
           },
           {
-            "name": "currency_Name",
+            "name": "Currency_Code",
             "in": "query",
             "schema": {
               "type": "string"
@@ -311,14 +311,14 @@
             }
           },
           {
-            "name": "currency_Name1",
+            "name": "Currency_Code1",
             "in": "query",
             "schema": {
               "type": "string"
             }
           },
           {
-            "name": "currency_Name2",
+            "name": "Currency_Code2",
             "in": "query",
             "schema": {
               "type": "string"
