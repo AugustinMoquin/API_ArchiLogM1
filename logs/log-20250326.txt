@@ -1,0 +1,43 @@
+2025-03-26 14:08:26.392 +01:00 [INF] Now listening on: https://localhost:7117
+2025-03-26 14:08:26.435 +01:00 [INF] Now listening on: http://localhost:5208
+2025-03-26 14:08:26.578 +01:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-03-26 14:08:26.636 +01:00 [INF] Hosting environment: Development
+2025-03-26 14:08:26.637 +01:00 [INF] Content root path: C:\Users\Grizzly\Source\Repos\API_ArchiLogM1
+2025-03-26 14:08:40.758 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/index.html - null null
+2025-03-26 14:08:41.410 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/index.html - 200 null text/html;charset=utf-8 663.9436ms
+2025-03-26 14:08:42.097 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/index.css - null null
+2025-03-26 14:08:42.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/swagger-ui.css - null null
+2025-03-26 14:08:42.123 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/swagger-ui-bundle.js - null null
+2025-03-26 14:08:42.322 +01:00 [INF] The file /index.css was not modified
+2025-03-26 14:08:42.324 +01:00 [INF] The file /swagger-ui-bundle.js was not modified
+2025-03-26 14:08:42.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/index.css - 304 null text/css 228.4073ms
+2025-03-26 14:08:42.322 +01:00 [INF] The file /swagger-ui.css was not modified
+2025-03-26 14:08:42.325 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/swagger-ui-bundle.js - 304 null text/javascript 201.8166ms
+2025-03-26 14:08:42.348 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/swagger-ui.css - 304 null text/css 225.3678ms
+2025-03-26 14:08:42.511 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/swagger-ui-standalone-preset.js - null null
+2025-03-26 14:08:42.514 +01:00 [INF] The file /swagger-ui-standalone-preset.js was not modified
+2025-03-26 14:08:42.515 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/swagger-ui-standalone-preset.js - 304 null text/javascript 4.1007ms
+2025-03-26 14:08:43.364 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/index.js - null null
+2025-03-26 14:08:43.372 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/index.js - 200 null application/javascript;charset=utf-8 8.7119ms
+2025-03-26 14:08:43.385 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/_framework/aspnetcore-browser-refresh.js - null null
+2025-03-26 14:08:43.387 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/_vs/browserLink - null null
+2025-03-26 14:08:43.401 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/_framework/aspnetcore-browser-refresh.js - 200 16515 application/javascript; charset=utf-8 15.8502ms
+2025-03-26 14:08:43.450 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/_vs/browserLink - 200 null text/javascript; charset=UTF-8 62.447ms
+2025-03-26 14:08:43.699 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/swagger/v1/swagger.json - null null
+2025-03-26 14:08:43.716 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 17.8507ms
+2025-03-26 14:08:57.741 +01:00 [INF] Request starting HTTP/2 GET https://localhost:7117/api/v1/Currency/compare?Currency_Code1=EUR&Currency_Code2=JPY - null null
+2025-03-26 14:08:57.753 +01:00 [INF] Executing endpoint 'exchangeRateApi.Controllers.CurrencyController.CompareCurrencies (exchangeRateApi)'
+2025-03-26 14:08:57.806 +01:00 [INF] Route matched with {action = "CompareCurrencies", controller = "Currency"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.ActionResult`1[System.Object]] CompareCurrencies(System.Nullable`1[System.Int32], System.Nullable`1[System.Int32], System.String, System.String, System.String, System.String, System.String) on controller exchangeRateApi.Controllers.CurrencyController (exchangeRateApi).
+2025-03-26 14:08:58.591 +01:00 [INF] CompareCurrencies called with parameters: id1=null, id2=null, country_Code1=null, country_Code2=null, Currency_Code1=EUR, Currency_Code2=JPY
+2025-03-26 14:09:01.210 +01:00 [INF] Executed DbCommand (56ms) [Parameters=[@__Currency_Code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Country], [c].[Country_number], [c].[Currency_Code], [c].[Currency_Name], [c].[Currency_Number], [c].[Value], [c].[country_Code]
+FROM [Currencies] AS [c]
+WHERE [c].[Currency_Code] = @__Currency_Code_0
+2025-03-26 14:09:01.293 +01:00 [INF] Executed DbCommand (2ms) [Parameters=[@__Currency_Code_0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [c].[Id], [c].[Country], [c].[Country_number], [c].[Currency_Code], [c].[Currency_Name], [c].[Currency_Number], [c].[Value], [c].[country_Code]
+FROM [Currencies] AS [c]
+WHERE [c].[Currency_Code] = @__Currency_Code_0
+2025-03-26 14:09:01.305 +01:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType0`3[[exchangeRateApi.Models.Currency, exchangeRateApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[exchangeRateApi.Models.Currency, exchangeRateApi, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null],[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Collections.Generic.Dictionary`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.Single, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]], System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-03-26 14:09:01.330 +01:00 [INF] Executed action exchangeRateApi.Controllers.CurrencyController.CompareCurrencies (exchangeRateApi) in 3519.2585ms
+2025-03-26 14:09:01.332 +01:00 [INF] Executed endpoint 'exchangeRateApi.Controllers.CurrencyController.CompareCurrencies (exchangeRateApi)'
+2025-03-26 14:09:01.342 +01:00 [INF] Request finished HTTP/2 GET https://localhost:7117/api/v1/Currency/compare?Currency_Code1=EUR&Currency_Code2=JPY - 200 null application/json; charset=utf-8 3601.3886ms

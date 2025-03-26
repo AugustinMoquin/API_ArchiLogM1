@@ -12,7 +12,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "GetCurrencies",
-    "RelativePath": "api/v1.0/Currency",
+    "RelativePath": "api/v1/Currency",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -32,7 +32,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "CreateCurrency",
-    "RelativePath": "api/v1.0/Currency",
+    "RelativePath": "api/v1/Currency",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -58,7 +58,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "GetCurrency",
-    "RelativePath": "api/v1.0/Currency/{id}",
+    "RelativePath": "api/v1/Currency/{id}",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -84,7 +84,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "DeleteCurrency",
-    "RelativePath": "api/v1.0/Currency/{id}",
+    "RelativePath": "api/v1/Currency/{id}",
     "HttpMethod": "DELETE",
     "IsController": true,
     "Order": 0,
@@ -100,7 +100,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "UpdateCurrency",
-    "RelativePath": "api/v1.0/Currency/{id}",
+    "RelativePath": "api/v1/Currency/{id}",
     "HttpMethod": "PUT",
     "IsController": true,
     "Order": 0,
@@ -121,7 +121,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "CompareCurrencies",
-    "RelativePath": "api/v1.0/Currency/compare",
+    "RelativePath": "api/v1/Currency/compare",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,
@@ -155,6 +155,11 @@
         "Name": "Currency_Code2",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []
@@ -162,7 +167,7 @@
   {
     "ContainingType": "exchangeRateApi.Controllers.CurrencyController",
     "Method": "SearchCurrencies",
-    "RelativePath": "api/v1.0/Currency/search",
+    "RelativePath": "api/v1/Currency/search",
     "HttpMethod": "GET",
     "IsController": true,
     "Order": 0,

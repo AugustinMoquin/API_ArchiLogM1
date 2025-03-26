@@ -5,7 +5,7 @@
     "version": "v1"
   },
   "paths": {
-    "/api/v1.0/Currency": {
+    "/api/v1/Currency": {
       "get": {
         "tags": [
           "Currency"
@@ -89,7 +89,7 @@
         }
       }
     },
-    "/api/v1.0/Currency/{id}": {
+    "/api/v1/Currency/{id}": {
       "get": {
         "tags": [
           "Currency"
@@ -190,7 +190,7 @@
         }
       }
     },
-    "/api/v1.0/Currency/search": {
+    "/api/v1/Currency/search": {
       "get": {
         "tags": [
           "Currency"
@@ -274,7 +274,7 @@
         }
       }
     },
-    "/api/v1.0/Currency/compare": {
+    "/api/v1/Currency/compare": {
       "get": {
         "tags": [
           "Currency"
@@ -319,6 +319,13 @@
           },
           {
             "name": "Currency_Code2",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "amount",
             "in": "query",
             "schema": {
               "type": "string"
