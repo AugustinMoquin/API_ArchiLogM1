@@ -166,6 +166,38 @@ namespace exchangeRateApi.Controllers
 
             return new { currency1, currency2, comparison };
         }
+         [HttpGet("top")]
+        public async Task<ActionResult<IEnumerable<Currency>>> GetTopCurrencies(
+        string sort = "strongest", 
+        int limit = 5)           
+        {
+            var query = _context.Currencies.AsQueryable();
+
+            
+            if (sort.ToLower() == "weakest")
+            {
+                query = query.OrderByDescending(c => c.Value);
+            }
+            else if (sort.ToLower() == "strongest")
+            {
+                query = query.OrderBy(c => c.Value);
+            }
+            else
+            {
+                return BadRequest("Sort parameter must be 'strongest' or 'weakest'");
+            }
+
+            
+            var result = await query.Take(limit).ToListAsync();
+
+            if (!result.Any())
+            {
+                return NotFound();
+            }
+
+            return result;
+        }
+        
         [HttpGet("convert")]
         public async Task<ActionResult<object>> ConvertCurrency(
             int? id1,
