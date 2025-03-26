@@ -166,6 +166,43 @@ namespace exchangeRateApi.Controllers
 
             return new { currency1, currency2, comparison };
         }
+        [HttpGet("convert")]
+        public async Task<ActionResult<object>> ConvertCurrency(
+            int? id1,
+            int? id2,
+            string? country_Code1,
+            string? country_Code2,
+            string? Currency_Code1,
+            string? Currency_Code2,
+            decimal amount)
+        {
+            var currency1 = await GetCurrencyByParameters(id1, country_Code1, Currency_Code1);
+            var currency2 = await GetCurrencyByParameters(id2, country_Code2, Currency_Code2);
+        
+            if (currency1 == null || currency2 == null)
+            {
+                return NotFound();
+            }
+        
+            if (amount < 0)
+            {
+                return BadRequest("Amount must be non-negative");
+            }
+        
+            var value1ToDollar = currency1.Value;
+            var value2ToDollar = currency2.Value;
+            var conversionRate = value1ToDollar / value2ToDollar;
+            var convertedAmount = amount * (decimal)conversionRate;
+        
+            return new
+            {
+                fromCurrency = currency1.Currency_Code,
+                toCurrency = currency2.Currency_Code,
+                originalAmount = amount,
+                convertedAmount,
+                conversionRate
+            };
+        }
 
         private async Task<Currency?> GetCurrencyByParameters(int? id, string? country_Code, string? Currency_Code)
         {
