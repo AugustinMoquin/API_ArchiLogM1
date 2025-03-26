@@ -3,16 +3,28 @@
   "WorkspaceRootPath": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:controllers\\currencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:.gitignore||{3B902123-F8A7-4915-9F01-361F908088D0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:csvmigrate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\models\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,18 +33,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:models\\currency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:unittest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\logs\\log-20250324.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:logs\\log-20250324.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|c:\\users\\cheik\\source\\repos\\api_archilogm1\\joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{9F79CABA-F60A-425D-AB2E-EFE49E46CDCB}|exchangeRateApi.csproj|solutionrelative:joined_currency_data.csv||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,7 +52,7 @@
         },
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
@@ -68,56 +68,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "log-20250324.txt",
-              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
-              "RelativeDocumentMoniker": "logs\\log-20250324.txt",
-              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\logs\\log-20250324.txt",
-              "RelativeToolTip": "logs\\log-20250324.txt",
-              "ViewState": "AgIAANgCAAAAAAAAAAAvwJMCAAB5AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-24T09:01:36.343Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CurrencyController.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
               "RelativeDocumentMoniker": "Controllers\\CurrencyController.cs",
               "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Controllers\\CurrencyController.cs",
               "RelativeToolTip": "Controllers\\CurrencyController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAH4AAAAAAAAAAAAqwJUAAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-24T08:48:52.239Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 1,
+              "Title": ".gitignore",
+              "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\.gitignore",
+              "RelativeDocumentMoniker": ".gitignore",
+              "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\.gitignore",
+              "RelativeToolTip": ".gitignore",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-03-26T13:15:04.705Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "UnitTest.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
               "RelativeDocumentMoniker": "UnitTest.cs",
               "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\UnitTest.cs",
               "RelativeToolTip": "UnitTest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T22:57:12.723Z"
+              "WhenOpened": "2025-03-23T22:57:12.723Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "CsvMigrate.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
               "RelativeDocumentMoniker": "CsvMigrate.cs",
               "ToolTip": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\CsvMigrate.cs",
               "RelativeToolTip": "CsvMigrate.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAA+wCAAAAA2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-23T21:54:13.608Z"
+              "WhenOpened": "2025-03-23T21:54:13.608Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 4,
               "Title": "joined_currency_data.csv",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\joined_currency_data.csv",
               "RelativeDocumentMoniker": "joined_currency_data.csv",
@@ -125,11 +128,12 @@
               "RelativeToolTip": "joined_currency_data.csv",
               "ViewState": "AgIAAF8AAAAAAAAAAAAvwHAAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002120|",
-              "WhenOpened": "2025-03-23T21:09:31.881Z"
+              "WhenOpened": "2025-03-23T21:09:31.881Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -142,7 +146,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 6,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "Models\\ApplicationDbContext.cs",
@@ -154,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Currency.cs",
               "DocumentMoniker": "C:\\Users\\cheik\\source\\repos\\API_ArchiLogM1\\Models\\Currency.cs",
               "RelativeDocumentMoniker": "Models\\Currency.cs",

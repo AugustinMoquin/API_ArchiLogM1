@@ -155,6 +155,11 @@
         "Name": "Currency_Code2",
         "Type": "System.String",
         "IsRequired": false
+      },
+      {
+        "Name": "amount",
+        "Type": "System.String",
+        "IsRequired": false
       }
     ],
     "ReturnTypes": []

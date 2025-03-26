@@ -323,6 +323,13 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "amount",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
           }
         ],
         "responses": {

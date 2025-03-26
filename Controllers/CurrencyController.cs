@@ -50,7 +50,8 @@ namespace exchangeRateApi.Controllers
             string? range,
             string? desc,
             string? asc,
-            string? fields)
+            string? fields
+            )
         {
             _logger.LogInformation("SearchCurrencies called with parameters: id={Id}, country_Code={CountryCode}, Currency_Code={CurrencyName}, range={Range}, desc={Desc}, asc={Asc}, fields={Fields}",
                 id, country_Code, Currency_Code, range, desc, asc, fields);
@@ -123,7 +124,13 @@ namespace exchangeRateApi.Controllers
         }
 
         [HttpGet("compare")]
-        public async Task<ActionResult<object>> CompareCurrencies(int? id1, int? id2, string? country_Code1, string? country_Code2, string? Currency_Code1, string? Currency_Code2)
+        public async Task<ActionResult<object>> CompareCurrencies(
+            int? id1, 
+            int? id2, 
+            string? country_Code1, 
+            string? country_Code2, 
+            string? Currency_Code1, 
+            string? Currency_Code2)
         {
             _logger.LogInformation("CompareCurrencies called with parameters: id1={Id1}, id2={Id2}, country_Code1={CountryCode1}, country_Code2={CountryCode2}, Currency_Code1={CurrencyCode1}, Currency_Code2={CurrencyCode2}",
                 id1, id2, country_Code1, country_Code2, Currency_Code1, Currency_Code2);
@@ -145,12 +152,12 @@ namespace exchangeRateApi.Controllers
 
             var comparison = new Dictionary<string, Dictionary<string, float>>
             {
-                [currency1.Currency_Code] = new Dictionary<string, float>
+                [currency1.Currency_Code + " to " + currency2.Currency_Code] = new Dictionary<string, float>
                 {
                     [currency1.Currency_Code] = 1,
                     [currency2.Currency_Code] = Value2ToValue1
                 },
-                [currency2.Currency_Code] = new Dictionary<string, float>
+                [currency2.Currency_Code + " to " + currency1.Currency_Code] = new Dictionary<string, float>
                 {
                     [currency2.Currency_Code] = 1,
                     [currency1.Currency_Code] = Value1ToValue2
