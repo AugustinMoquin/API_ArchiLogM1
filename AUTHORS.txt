@@ -1,0 +1,23 @@
+Augustin Moquin :
+	- Mise en place Logger
+	- Mise en place Versionning
+	- Création DataSet
+	- Création des routes :
+		- get : 
+			- Compare
+			- Search
+			- Currency
+
+Cheikh Chouiref :
+	- Mise en place Unit Testing
+	- Création des Modèle 
+	- Création des routes :
+		- get :
+			- top
+			- Convert
+		- post :
+			- Currency
+		- delete :
+			- Currency
+		- put :
+			- Currency
